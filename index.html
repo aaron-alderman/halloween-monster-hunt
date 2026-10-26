@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0812">
+  <meta name="description" content="A time-boxed distributed hunt through the searched, ruled-out and still-open routes from local physics to Moonshine.">
+  <meta property="og:title" content="Halloween Monster Hunt">
+  <meta property="og:description" content="Pick a trail. Reproduce it, prove it, build it—or kill it cleanly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aaron-alderman.github.io/halloween-monster-hunt/">
+  <title>Halloween Monster Hunt</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="fog fog-a" aria-hidden="true"></div>
+  <div class="fog fog-b" aria-hidden="true"></div>
+  <header class="site-nav">
+    <a class="sigil" href="#top" aria-label="Halloween Monster Hunt home">M<span>∞</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#map">Hunt map</a>
+      <a href="#trophies">Ruled out</a>
+      <a href="#bounties">Bounties</a>
+      <a href="#agents">For agents</a>
+    </nav>
+    <a class="nav-cta" href="FOR_AGENTS.md" download>Download field file ↓</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="moon" aria-hidden="true"><span class="moon-mark">𝕄</span></div>
+      <p class="eyebrow">A distributed search · 26 Oct–2 Nov 2026</p>
+      <h1>Halloween<br><em>Monster Hunt</em></h1>
+      <p class="hero-copy">The Monster is too large to enumerate. The route to it is not. Pick one trail in the physics–Moonshine ladder and <strong>prove it, compute it, build it, reproduce it—or kill it cleanly.</strong></p>
+      <div class="hero-actions">
+        <a class="button primary" href="#map">Enter the hunt</a>
+        <a class="button ghost" href="FOR_AGENTS.md" download>Give this to an agent</a>
+      </div>
+      <div class="countdown" aria-live="polite">
+        <span id="season-label">Lanterns lit until 2 November</span>
+        <strong id="countdown">Calculating moonrise…</strong>
+      </div>
+      <aside class="warning"><b>Hunt rule № 1</b> A spooky integer is not a Monster witness. Every trail needs a carrier, a certificate, a negative control and a stopping rule.</aside>
+    </section>
+
+    <section class="manifesto ruled-grid" aria-labelledby="brief-title">
+      <div>
+        <p class="section-number">01 / The brief</p>
+        <h2 id="brief-title">Do not search the Monster.<br><em>Build the ladder.</em></h2>
+      </div>
+      <div class="manifesto-copy">
+        <p>The group has roughly 8 × 10<sup>53</sup> elements. Brute force is the wrong game. The hunt follows compressed structure: local carriers, thermodynamic gaps, boundary algebras, rank-24 discrimination, orbifolds, defects and held-out detector predictions.</p>
+        <p>Parallelize the searches. Serialize the promotions. A failed trail—with its assumptions intact—is a trophy, not a loss.</p>
+        <a class="text-link" href="https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/articles/monster-distributed-search.html">Read the full call to action ↗</a>
+      </div>
+    </section>
+
+    <section id="map" class="map-section" aria-labelledby="map-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">02 / The searchable crypt</p>
+          <h2 id="map-title">What has been searched?</h2>
+        </div>
+        <p>Every card preserves the corpus status, kill test, next action and evidence trail. “Closed” means scoped closure—not universal impossibility.</p>
+      </div>
+
+      <div class="scoreboard" id="scoreboard" aria-label="Hunt status totals"></div>
+      <div class="controls" aria-label="Filter hunt map">
+        <label class="search"><span>Search trails</span><input id="search" type="search" placeholder="Casimir, detector, E8, gap…"></label>
+        <div id="filters" class="filters" role="group" aria-label="Filter by status"></div>
+      </div>
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <div id="topic-grid" class="topic-grid"></div>
+    </section>
+
+    <section id="trophies" class="trophy-section" aria-labelledby="trophy-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">03 / Trophy room</p>
+          <h2 id="trophy-title">Things the hunt has killed</h2>
+        </div>
+        <p>Not ideas in general: exact identifications, mechanisms or candidate classes under named assumptions. Each plaque includes the legitimate escape hatch.</p>
+      </div>
+      <div id="trophy-grid" class="trophy-grid"></div>
+    </section>
+
+    <section id="bounties" class="bounty-section" aria-labelledby="bounty-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">04 / Bounty board</p>
+          <h2 id="bounty-title">Eight nearby gates</h2>
+        </div>
+        <p>You do not need to solve Moonshine in a laboratory. Close one composable gate and return a packet the next hunter can use.</p>
+      </div>
+      <ol id="bounty-list" class="bounty-list"></ol>
+    </section>
+
+    <section id="agents" class="agent-section" aria-labelledby="agent-title">
+      <div class="agent-terminal" aria-hidden="true">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>monster-hunt / field packet</span></div>
+        <pre><code>&gt; choose OT-___
+&gt; load assumptions + evidence
+&gt; declare nearest rival
+&gt; run certificate / kill test
+&gt; return reproducible packet
+
+STATUS: no promotion without proof</code></pre>
+      </div>
+      <div>
+        <p class="section-number">05 / Machine familiars welcome</p>
+        <h2 id="agent-title">A field file for agents</h2>
+        <p>The downloadable brief is prompt-ready and source-pinned. It tells an agent what it may infer, how to select a tractable target, what files to return and when to stop.</p>
+        <div class="download-stack">
+          <a class="button primary" href="FOR_AGENTS.md" download>Download FOR_AGENTS.md</a>
+          <a class="button ghost" href="data/hunt-map.json" download>Download hunt-map.json</a>
+          <a class="button ghost" href="CONTRIBUTING.md">Human contribution guide</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules-section" aria-labelledby="rules-title">
+      <p class="section-number">06 / Rules of the hunt</p>
+      <h2 id="rules-title">Bring back evidence,<br>not ectoplasm.</h2>
+      <div class="rules-grid">
+        <article><b>01</b><h3>Name the object</h3><p>Hamiltonian, algebra, detector, theorem or material—not an atmosphere of resemblance.</p></article>
+        <article><b>02</b><h3>Freeze the rival</h3><p>State the closest conventional or smaller-algebra explanation before opening the result.</p></article>
+        <article><b>03</b><h3>Show the scar</h3><p>Return code, proof, residuals, convergence axes, calibration and source revision.</p></article>
+        <article><b>04</b><h3>Mark the grave</h3><p>If it fails, record scope, assumptions and the minimum datum that could reopen it.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Halloween Monster Hunt</strong> is a seasonal expedition surface over the canonical <a href="https://github.com/aaron-alderman/spin23-relational-geometry">Admissibility Frontier corpus</a>.</p>
+    <p>Map presence is not physical evidence. Admission is not endorsement. Negative results are first-class contributions.</p>
+    <p id="source-revision">Loading source revision…</p>
+  </footer>
+</body>
+</html>

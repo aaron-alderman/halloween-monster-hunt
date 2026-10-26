@@ -1,0 +1,1546 @@
+{
+  "schema": "halloween-monster-hunt/map-v1",
+  "generatedAt": "2026-10-26T08:55:36.329Z",
+  "season": {
+    "starts": "2026-10-26",
+    "ends": "2026-11-02",
+    "after": "archive"
+  },
+  "source": {
+    "repository": "https://github.com/aaron-alderman/spin23-relational-geometry",
+    "revision": "c60204964771aa655042618d3ffb17edb05d616b",
+    "revisionUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/tree/c60204964771aa655042618d3ffb17edb05d616b",
+    "registerPath": "corpus/programmes/frontier-physics-targets/open_topics_register_v1.json",
+    "openTopicsUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/frontier-physics-targets/open_topics_register_v1.json",
+    "callToActionUrl": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/articles/monster-distributed-search.html"
+  },
+  "statusCounts": {
+    "closed": 8,
+    "active": 14,
+    "gated": 18,
+    "open": 8,
+    "audit": 3,
+    "blocked": 2
+  },
+  "topics": [
+    {
+      "id": "OT-001",
+      "label": "Global detector-equivalence simulator",
+      "status": "closed",
+      "priority": "P0",
+      "question": "What finite intervention set separates the leading mechanisms after detector folding and nuisance projection?",
+      "nextAction": "Closed for the declared geometric-holonomy, static-splitting and differential-loss family by AZ-057; global nonlinear families remain OT-034.",
+      "closure": "Every preregistered mechanism pair is separated on held-out controls or explicitly retained in one equivalence class.",
+      "killTest": "A leading signal tangent remains inside the calibrated nuisance span for every affordable channel.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-002"
+      ],
+      "frontierAreaIds": [
+        "FA-03"
+      ],
+      "detectorIds": [
+        "DET-029",
+        "DET-030"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_57_coordinated_selector_closure_and_physical_provenance_boundary.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_57_coordinated_selector_closure_and_physical_provenance_boundary.md"
+    },
+    {
+      "id": "OT-002",
+      "label": "Three-mode projector-holonomy Hamiltonian",
+      "status": "active",
+      "priority": "P0",
+      "question": "Can one minimal physical Hamiltonian return its projector while transporting the coherent frame nontrivially?",
+      "nextAction": "Instantiate the AZ-057 matrix on one chosen carrier; calibrate gap, loop rate, splitting, loss, endpoint reference and process-tomography noise; then predict forward/reverse transport and one-loop/two-loop coherent endpoint return.",
+      "closure": "Projector closure and reversed noncentral holonomy survive independent calibration and loss modelling; any claimed central sign additionally returns near -I2 after one traversal and +I2 after two within predeclared centrality and reference bands.",
+      "killTest": "The phase is removable by an independently calibrated basis choice, the central return fails traversal parity, or the complete record is explained by differential attenuation or a static sign/cable-order mimic.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-001",
+        "FPT-005"
+      ],
+      "frontierAreaIds": [
+        "FA-06"
+      ],
+      "detectorIds": [
+        "DET-004",
+        "DET-005"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-003",
+      "label": "Independent selector datum Y",
+      "status": "active",
+      "priority": "P0",
+      "question": "Which independently measurable boundary, anisotropy, objective or record reduces the neutral stabilizer?",
+      "nextAction": "Choose a carrier-native boundary, anisotropy, reservoir axis or typed objective; calibrate it without selected-state data; predeclare whether it maximizes the three-ray environment determinant, the two-column channel determinant, entropy, or a rank boundary; then run frozen Y-on/Y-off return tomography of f0, f1 and s plus a path, intervention or cost record able to separate objectives that share s=0.",
+      "closure": "The independent datum selects the preregistered Gram/coherence class, changes the fixed point and tangent slope in the predicted direction, and discriminates selecting principles that are endpoint-degenerate.",
+      "killTest": "Equivalent contraction persists after Y removal, the objective is chosen after observing s, Y is only a restatement of the fitted outcome, or endpoint tomography is used to distinguish two principles that select the same point.",
+      "dependencies": [
+        "OT-002"
+      ],
+      "targetIds": [
+        "FPT-001"
+      ],
+      "frontierAreaIds": [
+        "FA-05",
+        "FA-07"
+      ],
+      "detectorIds": [
+        "DET-004",
+        "DET-007",
+        "DET-008"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-004",
+      "label": "Conditioned versus unconditional selector",
+      "status": "active",
+      "priority": "P0",
+      "question": "Does measurement create a unique physical attractor or only record-conditioned branches?",
+      "nextAction": "Implement the AZ-057 complete-outcome instrument on the chosen carrier and bound missed-record efficiency while reconstructing conditioned and unconditional maps separately.",
+      "closure": "The unconditional map and conditioned trajectories are both identified with record-efficiency bounds.",
+      "killTest": "Only postselected trajectories contract while the unconditional fixed manifold remains neutral.",
+      "dependencies": [
+        "OT-003"
+      ],
+      "targetIds": [
+        "FPT-016"
+      ],
+      "frontierAreaIds": [
+        "FA-08"
+      ],
+      "detectorIds": [
+        "DET-009"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-005",
+      "label": "Selector thermodynamic ledger",
+      "status": "active",
+      "priority": "P0",
+      "question": "What heat, work, activity and reset cost accompanies equal apparent contraction?",
+      "nextAction": "Realize the AZ-057 matched-contraction equilibrium, hidden-cycle and monitored protocols on one carrier and measure bounded-control speed, heat, activity and record-reset work.",
+      "closure": "A joint precision-speed-cost frontier is measured with protocol-specific uncertainty.",
+      "killTest": "Cost is inferred from contraction alone without a trajectory or energy ledger.",
+      "dependencies": [
+        "OT-003",
+        "OT-004"
+      ],
+      "targetIds": [
+        "FPT-015",
+        "FPT-016"
+      ],
+      "frontierAreaIds": [
+        "FA-09"
+      ],
+      "detectorIds": [
+        "DET-010"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-006",
+      "label": "Same-film causal tensor closure",
+      "status": "active",
+      "priority": "P0",
+      "question": "Can one measured broadband tensor jointly describe Hall, Seebeck, Nernst and magneto-optics?",
+      "nextAction": "On one deposition batch or specimen architecture, measure complex sigma_xx and sigma_xy in both magnetic states from DC/THz through at least 0.1-1 eV, retain overlap and covariance, fit one passive causal tensor, and freeze its imaginary-frequency posterior before force data are opened.",
+      "closure": "One response posterior predicts every local transport channel on held-out temperatures and orientations.",
+      "killTest": "Allowed causal tails or sample mismatch destroy the common tensor.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-003"
+      ],
+      "frontierAreaIds": [
+        "FA-12"
+      ],
+      "detectorIds": [
+        "DET-012",
+        "DET-016"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_58_casimir_spectral_coverage_and_distance_gate.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_58_casimir_spectral_coverage_and_distance_gate.md"
+    },
+    {
+      "id": "OT-007",
+      "label": "No-refit Casimir force or torque prediction",
+      "status": "gated",
+      "priority": "P0",
+      "question": "Does the independently measured response tensor predict a differential boundary force?",
+      "nextAction": "After OT-006 closes, propagate its frozen tensor posterior into a 0.1-1 micrometre parallel-minus-antiparallel force or torque prediction and advance only if the predicted differential exceeds the complete nuisance covariance.",
+      "closure": "A preregistered curve beats patch, roughness, drift and ordinary magnetic alternatives without force-data refitting.",
+      "killTest": "Nuisance or response-tail freedom spans the predicted signal.",
+      "dependencies": [
+        "OT-006"
+      ],
+      "targetIds": [
+        "FPT-003"
+      ],
+      "frontierAreaIds": [
+        "FA-12"
+      ],
+      "detectorIds": [
+        "DET-017",
+        "DET-018"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_58_casimir_spectral_coverage_and_distance_gate.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_58_casimir_spectral_coverage_and_distance_gate.md"
+    },
+    {
+      "id": "OT-008",
+      "label": "Low-frequency two-current rank",
+      "status": "gated",
+      "priority": "P0",
+      "question": "Does integrated rank-two particle-energy response survive in the transport window?",
+      "nextAction": "Provision a compiled symmetry-resolved common-sample KPM/typicality implementation or a distributed alternative, then scale one low-frequency integral beyond the exact 3x3 oracle with joint size, broadening and energy-gauge control.",
+      "closure": "Frequency-window rank converges jointly in size, temperature, broadening and energy gauge.",
+      "killTest": "The second eigen-direction is expelled from every controlled low-frequency window.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-004"
+      ],
+      "frontierAreaIds": [
+        "FA-04",
+        "FA-13"
+      ],
+      "detectorIds": [
+        "DET-019",
+        "DET-020",
+        "DET-021"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_50_frequency_moment_bounds_and_compute_boundary.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_50_frequency_moment_bounds_and_compute_boundary.md"
+    },
+    {
+      "id": "OT-009",
+      "label": "Acoustic repeated-return selector",
+      "status": "active",
+      "priority": "P0",
+      "question": "Can an acoustic platform realize neutral noncommuting transport and a correctly typed, independently audited selector channel without mistaking passive filtering for selection?",
+      "nextAction": "Build AZ-063's indexed-shot replacement channel: combine a separately measured noncommuting loop with probabilistic Y injection, retain branch labels and unnormalized power, and tomograph the ensemble covariance. Treat a single-trajectory version as active feedback or a separately modelled nonlinear reservoir.",
+      "closure": "Neutral transport preserves distance with Y off; the ensemble channel scales every traceless covariance perturbation by the preregistered factor only with Y present; loss-matched passive filters are rejected by power, singular-value and direction-dependent tangent records.",
+      "killTest": "The apparent contraction is fully predicted by a fixed block's singular-value imbalance, branch labels or unnormalized power are discarded, or an engineered controller is described as spontaneous selection.",
+      "dependencies": [
+        "OT-002",
+        "OT-003"
+      ],
+      "targetIds": [
+        "FPT-001",
+        "FPT-005"
+      ],
+      "frontierAreaIds": [
+        "FA-06",
+        "FA-07"
+      ],
+      "detectorIds": [
+        "DET-004",
+        "DET-005",
+        "DET-008"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-010",
+      "label": "Four-mode quotient-scar platform",
+      "status": "active",
+      "priority": "P0",
+      "question": "Can individual, summed and oriented records recover information deleted by a cyclic quotient?",
+      "nextAction": "Build the AZ-059 100 MHz four-resonator bench and execute the blinded exact, weak, resolved and physical-port-exchange schedule with the frozen gain, phase, linewidth and frequency injections.",
+      "closure": "Bright/dark poles, nonlinear memory and oriented contrast obey the frozen quotient-scar predictions under held-out perturbations.",
+      "killTest": "Ordinary hidden-state, gain or relabelling nuisances reproduce all scars.",
+      "dependencies": [
+        "OT-001"
+      ],
+      "targetIds": [
+        "FPT-005",
+        "FPT-022"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-06",
+        "FA-10"
+      ],
+      "detectorIds": [
+        "DET-005",
+        "DET-011",
+        "DET-027"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_59_four_mode_quotient_scar_bench_and_tolerance_closure.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_59_four_mode_quotient_scar_bench_and_tolerance_closure.md"
+    },
+    {
+      "id": "OT-011",
+      "label": "Magnon-polaron versus skew-scattering discriminator",
+      "status": "active",
+      "priority": "P1",
+      "question": "Which channel separates Berry-curvature and many-body skew mechanisms behind thermal Hall response?",
+      "nextAction": "Execute AZ-064 on one specimen architecture: freeze the spectroscopic single-particle gap, fit the low-temperature activation order, move the phonon crossing with isotope/strain control, retain the measured magnetic-spectrum shift as a nuisance coordinate, and test a joint hybrid-plus-skew mixture on a held-out setting.",
+      "closure": "Activation order and nuisance-corrected moving-crossing tracking give nonzero held-out separation after the same-specimen spectroscopic covariance is propagated.",
+      "killTest": "Both mechanisms remain freely refittable after the independently measured gap and moving-crossing intervention, or the intervention crosses an unmodelled magnetic phase boundary.",
+      "dependencies": [
+        "OT-001"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-005",
+        "FPT-021"
+      ],
+      "frontierAreaIds": [
+        "FA-12",
+        "FA-15"
+      ],
+      "detectorIds": [
+        "DET-014",
+        "DET-015",
+        "DET-029"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-012",
+      "label": "YIG three-mode versus four-mode fork",
+      "status": "active",
+      "priority": "P1",
+      "question": "Can the structurally required four-mode YIG tripod retain a protected dark doublet under measured damping and active CPA control?",
+      "nextAction": "Choose a second cavity, mechanical or magnon auxiliary coupled to the same central mode; reconstruct the four-mode rotating-frame matrix with three calibrated complex couplings; and simulate loop reversal, residual splitting, damping and reference-port tomography.",
+      "closure": "The four-mode architecture meets gap, dark-doublet, holonomy and readout margins under measured loss and gain sensitivity.",
+      "killTest": "No auxiliary produces a common rotating-frame outer frequency and controllable three-component loop, or the dark doublet is unresolved/unstable under measured linewidth and CPA drift. AZ-062 already closes the reported three-mode protected-doublet branch.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-005"
+      ],
+      "frontierAreaIds": [
+        "FA-06",
+        "FA-11"
+      ],
+      "detectorIds": [
+        "DET-004",
+        "DET-013",
+        "DET-014"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-013",
+      "label": "Non-Hermitian topology versus active selection",
+      "status": "active",
+      "priority": "P1",
+      "question": "Can coherent biorthogonal transport be separated from gain/loss-conditioned attraction?",
+      "nextAction": "Instantiate AZ-065 on one measured carrier: run both initial eigenstates, both orientations and at least three periods; reconstruct complex eigenvalues and left/right modes; retain unnormalized gain/loss; and compare EP-enclosing with gain/loss-matched EP-excluding loops.",
+      "closure": "Spectral sheet exchange and dynamically selected endpoints occupy distinct held-out observables under independent variation of winding and imaginary-spectrum exposure.",
+      "killTest": "Endpoint exchange or chirality is fully predicted by nonadiabatic gain/loss dynamics and persists without EP winding, leaving no independent topological dynamic residue.",
+      "dependencies": [
+        "OT-001"
+      ],
+      "targetIds": [
+        "FPT-006"
+      ],
+      "frontierAreaIds": [
+        "FA-06",
+        "FA-07",
+        "FA-11"
+      ],
+      "detectorIds": [
+        "DET-006",
+        "DET-029"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-014",
+      "label": "Finite-band Levinson and pole ledger",
+      "status": "closed",
+      "priority": "P1",
+      "question": "What edge, branch and background corrections make phase winding equal the correct finite-band bound-state ledger?",
+      "nextAction": "Closed by AZ-055; reopen only for arbitrary graphs, multichannel leads or threshold-degenerate attachments.",
+      "closure": "Corrected phase, pole count, delay and localization agree across both band edges and dimerization reversal.",
+      "killTest": "No convention-independent corrected winding can be defined for the declared scattering problem.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-007",
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-11",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-022",
+        "DET-023"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_55_finite_band_levinson_and_adaptive_pole_collisions.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_55_finite_band_levinson_and_adaptive_pole_collisions.md"
+    },
+    {
+      "id": "OT-015",
+      "label": "Defect information beyond index",
+      "status": "closed",
+      "priority": "P1",
+      "question": "What orientation, representation or response data survives at fixed protected mode count?",
+      "nextAction": "Closed by AZ-106 for the declared finite existence criterion. Treat fabrication of a calibrated mirror-even/odd wall, D4 localization and non-Abelian extensions as new experimental or operator-specific work rather than reopening the construction.",
+      "closure": "One non-index observable is transported robustly with a declared protection mechanism.",
+      "killTest": "A homotopic control preserves the index while arbitrarily scrambling the proposed extra datum. AZ-105 fires this test for continuous residue/localization and raw phase in the minimal chiral chain; AZ-106's calibrated mirror representation survives every declared reflection-symmetric homotopy and fails only when that protecting symmetry is deliberately broken.",
+      "dependencies": [
+        "OT-014"
+      ],
+      "targetIds": [
+        "FPT-007"
+      ],
+      "frontierAreaIds": [
+        "FA-14"
+      ],
+      "detectorIds": [
+        "DET-024"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_106_reflection_resolved_defect_transport.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_106_reflection_resolved_defect_transport.md"
+    },
+    {
+      "id": "OT-016",
+      "label": "Hydrodynamic multichannel cone",
+      "status": "open",
+      "priority": "P1",
+      "question": "Do Ward and KMS constraints leave an interior response cone or force a low-rank ray?",
+      "nextAction": "Embed AZ-104's enlarged positive Gaussian action in a derivative-ordered stress-source theory with exact quantum-frequency and nonlinear dynamical KMS; transform response/noise/measure terms together, classify improvements/contacts, and derive or measure the relaxation spectrum, physical noise normalization and invariant response.",
+      "closure": "Rank is stable under hydrodynamic frame, contact and nuisance transformations.",
+      "killTest": "All apparent extra directions are improvements of currents or contact terms.",
+      "dependencies": [
+        "OT-008"
+      ],
+      "targetIds": [
+        "FPT-008"
+      ],
+      "frontierAreaIds": [
+        "FA-13",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-012",
+        "DET-013",
+        "DET-019"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_104_relaxation_auxiliary_gaussian_kms_completion.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_104_relaxation_auxiliary_gaussian_kms_completion.md"
+    },
+    {
+      "id": "OT-017",
+      "label": "Source-restricted logical generator set",
+      "status": "open",
+      "priority": "P1",
+      "question": "Which logical holonomies are generated by provenance-bearing physical controls rather than universal programmability?",
+      "nextAction": "Implement one calibrated mutual control and one calibrated polarization-changing control on the same carrier; predict held-out words and forbidden orbits with stabilizer witnesses and leakage readout.",
+      "closure": "A nontrivial restricted closure predicts held-out gate words.",
+      "killTest": "The same result appears only after arbitrary universal controls are admitted.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-009"
+      ],
+      "frontierAreaIds": [
+        "FA-16",
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-005",
+        "DET-027",
+        "DET-028"
+      ],
+      "evidencePath": "corpus/programmes/frontier/wave-7/frontier_wave7_71_source_restricted_logical_generator_boundary.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/frontier/wave-7/frontier_wave7_71_source_restricted_logical_generator_boundary.md"
+    },
+    {
+      "id": "OT-018",
+      "label": "New contextual admissibility inequality",
+      "status": "open",
+      "priority": "P1",
+      "question": "Can admissibility exclude a response or amplitude not already excluded by standard consistency?",
+      "nextAction": "Acquire measured positive-Laplace slopes or a validated interpolation substitute with repeat/fixture covariance and independently calibrated storage terms; run AZ-096's paired raw/corrected kernel test, while pursuing shared-dilation or detector-context premises not equivalent to a narrower carrier class.",
+      "closure": "A strictly stronger basis-independent allowed region is proved, has a saturating example, and excludes a point that already satisfies the complete standard positivity/causality envelope.",
+      "killTest": "The inequality is algebraically equivalent to unitarity, analyticity, causality, complete positivity, full-family positivity or a standard narrower carrier theorem, as AZ-066 and AZ-095 demonstrate.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-022",
+        "DET-023",
+        "DET-028"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_96_population_storage_corrected_loewner_certificate.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_96_population_storage_corrected_loewner_certificate.md"
+    },
+    {
+      "id": "OT-019",
+      "label": "Three-scale admissibility functor",
+      "status": "closed",
+      "priority": "P1",
+      "question": "Which admissible sets and detector equivalence classes survive coarse-graining?",
+      "nextAction": "Retain AZ-099 as the constructive closure; treat fabrication, unequal capacities and covariance-aware validation as a new experimental extension rather than reopening the stated construction.",
+      "closure": "A nontrivial invariant and semigroup error bound survive held-out substitutions.",
+      "killTest": "The geometry disappears under coordinate shuffling or depends on fitted interscale maps.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-017"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-15"
+      ],
+      "detectorIds": [
+        "DET-026"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_99_three_scale_passive_diffusion_pushforward.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_99_three_scale_passive_diffusion_pushforward.md"
+    },
+    {
+      "id": "OT-020",
+      "label": "Rare-event selector geometry",
+      "status": "open",
+      "priority": "P1",
+      "question": "Do path ensembles distinguish equilibrium breaking from kinetic freezing?",
+      "nextAction": "Measure dwell, first-passage and switching-path distributions across waiting time and sweep rate.",
+      "closure": "A rate function and escape mechanism predict held-out protocol changes.",
+      "killTest": "One relaxation time fits mutually incompatible path ensembles.",
+      "dependencies": [
+        "OT-003"
+      ],
+      "targetIds": [
+        "FPT-018"
+      ],
+      "frontierAreaIds": [
+        "FA-10"
+      ],
+      "detectorIds": [
+        "DET-011"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-021",
+      "label": "Complexity cards for every active packet",
+      "status": "audit",
+      "priority": "P1",
+      "question": "Are existence, preparation, sampling, detection and verification costs being conflated?",
+      "nextAction": "Enforce the certified five-stage card as an admission requirement for every newly active packet; require a linked target card or a packet-specific replacement with the same fields.",
+      "closure": "Every active claim declares resource scaling and an independent verification path.",
+      "killTest": "A claimed detector requires exponential tomography or an unrestricted hidden oracle.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-001",
+        "FPT-002",
+        "FPT-003",
+        "FPT-004",
+        "FPT-005",
+        "FPT-006",
+        "FPT-007",
+        "FPT-008",
+        "FPT-009",
+        "FPT-010",
+        "FPT-019",
+        "FPT-022"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-15",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-030"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_59_four_mode_quotient_scar_bench_and_tolerance_closure.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_59_four_mode_quotient_scar_bench_and_tolerance_closure.md"
+    },
+    {
+      "id": "OT-022",
+      "label": "Causal selector propagation bound",
+      "status": "open",
+      "priority": "P1",
+      "question": "How fast can selection, disturbance and record information propagate?",
+      "nextAction": "Compare measured mixing fronts with coupling range, common-drive structure and system-bath speed bounds.",
+      "closure": "Observed selection time respects a calibrated locality/resource bound with finite-size scaling.",
+      "killTest": "Fast global change is explained by common control, long-range coupling or analysis leakage.",
+      "dependencies": [
+        "OT-009"
+      ],
+      "targetIds": [
+        "FPT-020"
+      ],
+      "frontierAreaIds": [
+        "FA-07",
+        "FA-15"
+      ],
+      "detectorIds": [
+        "DET-025"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-023",
+      "label": "Disorder and glassy-memory audit",
+      "status": "audit",
+      "priority": "P1",
+      "question": "Is apparent vacuum multiplicity robust structure or sample-specific kinetic memory?",
+      "nextAction": "Jointly scale disorder strength, number of samples and waiting time on the selected platform.",
+      "closure": "Projector, topology and selector statistics converge to a declared disorder class.",
+      "killTest": "Rare regions or individual samples dominate the claimed branches.",
+      "dependencies": [
+        "OT-009",
+        "OT-011"
+      ],
+      "targetIds": [
+        "FPT-021"
+      ],
+      "frontierAreaIds": [
+        "FA-10",
+        "FA-15"
+      ],
+      "detectorIds": [
+        "DET-011",
+        "DET-014",
+        "DET-024"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-024",
+      "label": "Relation emulator hardware dictionary",
+      "status": "active",
+      "priority": "P2",
+      "question": "What calibrated device amplitude realizes each formal relation coordinate?",
+      "nextAction": "Build AZ-142's three-resonator parity-switch precursor and test its held-out cubic determinant with shared nuisance parameters; on pass, scale to AZ-110's frozen 16-mode, 24-link directed network and execute the QR-003 acceptance test blind.",
+      "closure": "The three-mode parity invariant and the 16-mode response matrix, covariance and QR-003 wall agree out of sample.",
+      "killTest": "The parity selector fails its gauge/open-chain controls, or the larger mapping is merely a programmable encoding with no source-specific constraint.",
+      "dependencies": [
+        "OT-010"
+      ],
+      "targetIds": [
+        "FPT-009",
+        "FPT-022"
+      ],
+      "frontierAreaIds": [
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-027"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_142_a_three_resonator_parity_switch_turns_the_dual_face_into_a_detector.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_142_a_three_resonator_parity_switch_turns_the_dual_face_into_a_detector.md"
+    },
+    {
+      "id": "OT-025",
+      "label": "Nonlocal 24-dimensional form or code functor",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Can a source-derived replacement escape the graph lattice and code no-go boundaries?",
+      "nextAction": "Supply a nonlocal bilinear or explicit noninvertible Golay functor and state exactly which property it sacrifices.",
+      "closure": "The transported form/code satisfies its defining identities and predicts a relation observable.",
+      "killTest": "The proposal is a basis relabelling, arbitrary regularizer or imports Golay data without derivation.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-009",
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-16",
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-028"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-026",
+      "label": "Product-preserving graph-to-Jordan translation",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Can relation composition induce a Jordan product or exceptional cubic?",
+      "nextAction": "Reopen only with independently authored reverse-relation semantics covering the 41 unmatched records, an external contravariant functor predicting held-out paths, or a physical device dictionary with tested reverse controls.",
+      "closure": "A source-native or externally validated semantic adjoint closes the doubled AZ-133 response under path composition and predicts one held-out oriented record.",
+      "killTest": "The free rail mirror or a formally adjoined reverse graph is presented as authored semantics; only the two-record Spin-Temple cell closes; relation types are paired after inspecting the desired result; or the local Cl(1,1) grammar is promoted to shared dynamics without an intertwiner.",
+      "dependencies": [
+        "OT-025"
+      ],
+      "targetIds": [
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-17",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-027",
+        "DET-028",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_134_no_global_semantic_adjoint_exists_on_the_current_claimipedia_relation_source.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_134_no_global_semantic_adjoint_exists_on_the_current_claimipedia_relation_source.md"
+    },
+    {
+      "id": "OT-027",
+      "label": "Physical operator and dynamics functor",
+      "status": "gated",
+      "priority": "P2",
+      "question": "How do typed relations become operators, amplitudes and causal dynamics?",
+      "nextAction": "Use AZ-109 as the action-to-record positive control, then close OT-024 with a source-native relation-to-hardware dictionary whose held-out detector consequences are not programmed into the carrier; separately replicate AZ-094 with fixture covariance.",
+      "closure": "One action generates the operator assignment and calibrated detector map.",
+      "killTest": "Matrix units or an opaque uniform wrapper reproduce graph incidence but generate an unrelated algebra with no physical selection.",
+      "dependencies": [
+        "OT-024"
+      ],
+      "targetIds": [
+        "FPT-001",
+        "FPT-008",
+        "FPT-009"
+      ],
+      "frontierAreaIds": [
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-027",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_109_four_mode_sk_action_to_record.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_109_four_mode_sk_action_to_record.md"
+    },
+    {
+      "id": "OT-028",
+      "label": "Gauge-compatible flavour path",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Can a physical path or overlap operator predict flavour data without importing Yukawas?",
+      "nextAction": "Derive the carrier, path and overlap from one gauge-compatible action and count all free parameters.",
+      "closure": "Held-out masses or mixings are predicted in a joined likelihood.",
+      "killTest": "The result is equivalent to fitting an unconstrained texture or basis choice.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-011"
+      ],
+      "frontierAreaIds": [
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-031",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-029",
+      "label": "Protected torsion parent",
+      "status": "blocked",
+      "priority": "P3",
+      "question": "Can an action protect a distinctive torsion coupling through thresholds?",
+      "nextAction": "Reopen only with a UV grading/nonrenormalization theorem or computed interacting matter-gravity fixed point and matched trajectory.",
+      "closure": "The action fixes species ratios and range dependence radiatively and predicts a null-resistant experiment.",
+      "killTest": "Generic pseudoscalar exchange with free coefficients reproduces every proposed signal.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-012"
+      ],
+      "frontierAreaIds": [
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-032",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-030",
+      "label": "Joined cosmological model",
+      "status": "gated",
+      "priority": "P3",
+      "question": "Can one covariant model use common parameters across expansion, perturbations, lensing, structure and relic defects?",
+      "nextAction": "Specify the action and early-universe history before fitting any anomaly subset.",
+      "closure": "A joined likelihood improves or survives every declared dataset without arbitrary functions.",
+      "killTest": "One anomaly is relieved only by worsening another dataset or adding unconstrained freedom.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-013"
+      ],
+      "frontierAreaIds": [
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-033",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-031",
+      "label": "Uniform continuum and mass-gap theorem",
+      "status": "blocked",
+      "priority": "P3",
+      "question": "Can finite spectra be upgraded to a regulator-, volume-, time- and operator-uniform exclusion near zero?",
+      "nextAction": "Produce one infinite-dimensional estimate with explicit uniform constants.",
+      "closure": "A positive lower bound survives every declared limit and operator enlargement.",
+      "killTest": "The gap shrinks along any admissible limit sequence.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-014"
+      ],
+      "frontierAreaIds": [
+        "FA-18",
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-034"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-032",
+      "label": "Exceptional unification action",
+      "status": "gated",
+      "priority": "P3",
+      "question": "Can the local exceptional contacts assemble into one anomaly-consistent physical theory?",
+      "nextAction": "Require a representation dictionary, chiral spectrum, action, symmetry-breaking chain, scale matching and discriminating observable before further promotion.",
+      "closure": "Every defining identity and physical consistency gate closes with a no-refit prediction.",
+      "killTest": "The assembly rests on dimension matches, repeated numbers or freely chosen embeddings.",
+      "dependencies": [
+        "OT-026",
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-010",
+        "FPT-011",
+        "FPT-012",
+        "FPT-013",
+        "FPT-014"
+      ],
+      "frontierAreaIds": [
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-028",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-033",
+      "label": "Real declaration-corpus adaptive-depth census",
+      "status": "gated",
+      "priority": "P1",
+      "question": "How do collision purity and detector cost scale on a source-native Lean declaration corpus?",
+      "nextAction": "Obtain RequestProject/Ogg/DeclFold.lean, DeclFoldReflect.lean, DeclFoldCerts.lean, fold/decls.json and the pinned Lean/Lake environment named by AZ-060; then run canonical address plus adaptive scar refinement.",
+      "closure": "Occupancy, normalization mobility, fibre purity and stopping-depth distributions reproduce from committed sources, and all 13 reported certificates compile with recorded axiom dependencies.",
+      "killTest": "Results depend materially on undeclared environment, declaration-selection, DAG-sharing, transparency or compact-constructor policy.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-002",
+        "FPT-019"
+      ],
+      "frontierAreaIds": [
+        "FA-01",
+        "FA-02",
+        "FA-03"
+      ],
+      "detectorIds": [
+        "DET-001",
+        "DET-002",
+        "DET-003"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-034",
+      "label": "Global nonlinear detector injectivity",
+      "status": "closed",
+      "priority": "P2",
+      "question": "What finite interventions make a nonlinear history-dependent model family globally identifiable?",
+      "nextAction": "Retain AZ-107 as the compact-family closure; run its power-history plus coherent-reference schedule on a calibrated carrier before enlarging the recurrence or detector model.",
+      "closure": "A finite intervention set is proved injective over the declared compact model family or a residual quotient is characterized.",
+      "killTest": "Distinct mechanisms remain exactly record-equivalent under every admitted intervention.",
+      "dependencies": [
+        "OT-001"
+      ],
+      "targetIds": [
+        "FPT-002"
+      ],
+      "frontierAreaIds": [
+        "FA-03"
+      ],
+      "detectorIds": [
+        "DET-003",
+        "DET-029"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_107_global_nonlinear_detector_injectivity.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_107_global_nonlinear_detector_injectivity.md"
+    },
+    {
+      "id": "OT-035",
+      "label": "Frontier-register maintenance",
+      "status": "audit",
+      "priority": "P0",
+      "question": "Are detector, area and open-topic states synchronized as results close or branches split?",
+      "nextAction": "Run the verifier after every frontier packet and update status, dependencies, closure evidence and newly exposed topics.",
+      "closure": "No closed topic remains marked active and every new gate has a registered owner and detector requirement.",
+      "killTest": "The prose and machine registers disagree or an open gate exists only in narrative text.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-002",
+        "FPT-019"
+      ],
+      "frontierAreaIds": [
+        "FA-01",
+        "FA-03",
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-030"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-036",
+      "label": "Microscopic capture and radiation ledger",
+      "status": "gated",
+      "priority": "P1",
+      "question": "Can the unitary toy-bath capture be replaced by a microscopic radiative or phononic channel with a complete energy and phase ledger?",
+      "nextAction": "Choose one material or engineered device and supply bond-resolved dt/du, ionic masses, spring constants and geometry; then extend AZ-122 through thermal initial states, multiphonon sectors and joint matter/phonon continuum refinement.",
+      "closure": "Matter plus radiation closes norm, energy, phase and detailed-balance checks without fitted sink dynamics.",
+      "killTest": "Permanent capture requires an unphysical Markov sink or freely engineered bath spectrum; the coherent source-derived form factor vanishes; the gap lies outside the phonon band; or the apparent plateau fails the wavepacket/rail-size/recurrence test.",
+      "dependencies": [
+        "OT-014"
+      ],
+      "targetIds": [
+        "FPT-007",
+        "FPT-010",
+        "FPT-015"
+      ],
+      "frontierAreaIds": [
+        "FA-09",
+        "FA-11"
+      ],
+      "detectorIds": [
+        "DET-010",
+        "DET-022",
+        "DET-023"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_122_a_normalized_packet_turns_the_overlap_density_into_a_capture_probability.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_122_a_normalized_packet_turns_the_overlap_density_into_a_capture_probability.md"
+    },
+    {
+      "id": "OT-037",
+      "label": "Integrated-photonic selector chip specification",
+      "status": "active",
+      "priority": "P1",
+      "question": "Can a fabrication-ready photonic device meet the gap, splitting, differential-loss, timing and tomography budgets simultaneously?",
+      "nextAction": "Choose one AZ-061 fabrication-native route—signed effective coupling, a two-module half-angle cascade, or a positive-octant/braiding path—then extract kappa(z), residual dark-doublet splitting and differential loss from a full-wave tolerance ensemble. Keep the reference port and independently calibrated Y stage explicit.",
+      "closure": "A full-wave design with fabrication tolerances passes every AZ-027 inequality, reverses the reference-anchored oriented amplitude, and preserves a separately measured selector intervention rather than hiding selection in passive filtering.",
+      "killTest": "No fabrication-native path has a simultaneous adiabatic/splitting/loss window, reversal becomes phase-convention-only without a viable reference port, or the only apparent selector is the differential loss used to filter the dark doublet.",
+      "dependencies": [
+        "OT-002",
+        "OT-003"
+      ],
+      "targetIds": [
+        "FPT-001",
+        "FPT-005",
+        "FPT-006"
+      ],
+      "frontierAreaIds": [
+        "FA-06",
+        "FA-07"
+      ],
+      "detectorIds": [
+        "DET-004",
+        "DET-005",
+        "DET-006",
+        "DET-008"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-038",
+      "label": "Source-bearing A2 cross-carrier commuting square",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Does one provenance-bearing transformation transport the A2 projector, complex structure and losses between two established carriers?",
+      "nextAction": "Use Waves 7.66--7.69 to calibrate one map from the selector primitive-form eigenspaces to the rectangular two- and three-port spaces. Require it to reproduce at least one independently observed selector generator, treat E as a covariant symmetry-breaking datum rather than an invariant tensor, and select the +E^T noncompact reverse-channel phase.",
+      "closure": "The carrier-identification square commutes on held-out states; label, basis and phase choices are evidence-fixed; the selector-derived Q is transported to the physical ports; the adjoint pairing, bifundamental action and metric are source-native; and the dynamics selects the predicted Gram stratum while closing the six cross directions to so(2,3).",
+      "killTest": "Only representation equivalence, unlabeled dimensions, signature matching or A2 names agree; the stage S3 is a chosen model rather than authored data; the common-carrier map is fitted after the fact; the nonzero channel is incorrectly claimed invariant under a selector whose cross-Hom vanishes; reverse transport is unrelated; full sl3 is claimed to survive the orthogonal reduction; or the Gram spectrum remains arbitrary after all admitted data are fixed.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-009",
+        "FPT-011"
+      ],
+      "frontierAreaIds": [
+        "FA-17",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-027",
+        "DET-028",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-039",
+      "label": "Microscopic wall-pseudoscalar coefficient",
+      "status": "gated",
+      "priority": "P2",
+      "question": "What microscopic interaction fixes the magnitude and sign of the effective wall-orientation selector coefficient?",
+      "nextAction": "Supply a source-derived spin-face or spin-internal coupling and integrate it out with a radiative-stability audit.",
+      "closure": "The coefficient is predicted across at least two observables without refitting and changes sign under the declared wall reversal.",
+      "killTest": "The coefficient remains symmetry-allowed but freely renormalized or vanishes on every factorized route.",
+      "dependencies": [
+        "OT-003",
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-001",
+        "FPT-007",
+        "FPT-012"
+      ],
+      "frontierAreaIds": [
+        "FA-05",
+        "FA-07",
+        "FA-17"
+      ],
+      "detectorIds": [
+        "DET-007",
+        "DET-010",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-040",
+      "label": "Matter-plus-field Coulomb energy current",
+      "status": "open",
+      "priority": "P2",
+      "question": "Can electromagnetic field energy carry the long-range flux in a gauge- and limit-consistent matter-plus-field formulation?",
+      "nextAction": "Build two source-matched dynamical completions of the projected lattice matter: finite-c lattice electrodynamics for the unscreened arm and an explicit polarizable carrier for the screened arm. Integrate each out to recover the audited Ewald kernel, derive the total finite-q KMS current, remove magnetization currents and collide size, q, screening, frequency and c limits in one declared order.",
+      "closure": "Total continuity closes and the low-frequency response is independent of matter-energy gauge convention.",
+      "killTest": "The formulation merely moves the same infrared ambiguity into an arbitrary field partition, omits the sector that produces screening, fails to recover the audited matter kernel, or compares different orders of limits.",
+      "dependencies": [
+        "OT-008"
+      ],
+      "targetIds": [
+        "FPT-004",
+        "FPT-008"
+      ],
+      "frontierAreaIds": [
+        "FA-13",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-020",
+        "DET-021"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_119_the_field_closes_continuity_but_screening_needs_its_own_carrier.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_119_the_field_closes_continuity_but_screening_needs_its_own_carrier.md"
+    },
+    {
+      "id": "OT-041",
+      "label": "Adaptive pole-collision localization",
+      "status": "closed",
+      "priority": "P1",
+      "question": "Where exactly does the physical-sheet pole collide with each band edge and continue to the resonance sheet?",
+      "nextAction": "Closed by AZ-055; use the certified controls as benchmarks for OT-036 and OT-046.",
+      "closure": "Both collision parameters and local scaling laws are bounded with branch-consistent uncertainties.",
+      "killTest": "The apparent crossing is a sampling or branch-choice artifact.",
+      "dependencies": [
+        "OT-014"
+      ],
+      "targetIds": [
+        "FPT-007",
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-11"
+      ],
+      "detectorIds": [
+        "DET-022",
+        "DET-023"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_55_finite_band_levinson_and_adaptive_pole_collisions.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_55_finite_band_levinson_and_adaptive_pole_collisions.md"
+    },
+    {
+      "id": "OT-042",
+      "label": "Typed triality-Furey reflection identification",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Are the triality reflection and Furey response reflection the same typed operation on one physical module?",
+      "nextAction": "Construct the representation map, charge action and orientation convention, or prove locality and gauge compatibility forbid it.",
+      "closure": "The reflections intertwine on the full labelled module and predict a held-out flavour or CP observable.",
+      "killTest": "They agree only after erasing carrier labels, charges or physical orientation.",
+      "dependencies": [
+        "OT-026",
+        "OT-028"
+      ],
+      "targetIds": [
+        "FPT-011"
+      ],
+      "frontierAreaIds": [
+        "FA-17",
+        "FA-19",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-028",
+        "DET-031",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-043",
+      "label": "Drive-to-record AM/FM information benchmark",
+      "status": "closed",
+      "priority": "P1",
+      "question": "Which resonant, phase-lag, hysteretic and sideband records preserve enough information to distinguish AM, FM and mixed modulation after detector folding?",
+      "nextAction": "Use the certified coherent carrier-plus-two-sideband record as the preregistered nuisance baseline for OT-044; reopen OT-043 only for nonlinear, time-varying or large-index extensions.",
+      "closure": "Wave 7.65 reconstructs mixed AM/FM depth over 972 held-out small-index LTI cases with RMSE below 0.000362 and proves exact power-only blindness; the minimal record is the calibrated carrier plus both coherent sidebands.",
+      "killTest": "Any claimed AM/FM discriminator using powers, ringdown or one sideband alone fails the certified information-loss ledger.",
+      "dependencies": [
+        "OT-001"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-005",
+        "FPT-006"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-06",
+        "FA-08",
+        "FA-10"
+      ],
+      "detectorIds": [
+        "DET-013",
+        "DET-029"
+      ],
+      "evidencePath": "corpus/programmes/frontier/wave-7/frontier_wave7_65_drive_to_record_am_fm_benchmark.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/frontier/wave-7/frontier_wave7_65_drive_to_record_am_fm_benchmark.md"
+    },
+    {
+      "id": "OT-044",
+      "label": "G2 long-short-root response demonstrator",
+      "status": "closed",
+      "priority": "P1",
+      "question": "Which long-root versus short-root response signatures survive damping, phase uncertainty and detector folding in the smallest normalized G2 Cartan or Toda model?",
+      "nextAction": "Retain the Wave 7.70 two-channel no-go; reopen only with resolved pre-fold outer channels, a source-native triality lift, or a nonlinear invariant outside the generic two-mode family.",
+      "closure": "Wave 7.70 proves that the complete calibrated complex response of the canonically normalized fold is exactly an ordinary two-oscillator response across 1,604 tests. The proposed discriminator survives only as a pre-fold intervention: unequal addressed outer detunings raise the symmetric-port Krylov rank from two to four.",
+      "killTest": "Fired for the declared two-channel LTI scope: ordinary coupling, damping, AM/FM mixing and readout calibration absorb every long/short-root response signature.",
+      "dependencies": [
+        "OT-001",
+        "OT-043"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-005",
+        "FPT-010"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-06",
+        "FA-13"
+      ],
+      "detectorIds": [
+        "DET-013",
+        "DET-029"
+      ],
+      "evidencePath": "corpus/programmes/frontier/wave-7/frontier_wave7_70_g2_response_folding_no_go.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/frontier/wave-7/frontier_wave7_70_g2_response_folding_no_go.md"
+    },
+    {
+      "id": "OT-045",
+      "label": "Hecke operator or modular-trace test",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Does the Monster-order address construction support explicit operators satisfying declared Hecke relations or a graded trace with the required modular identities?",
+      "nextAction": "Identify the corpus order-23 cycle with a declared oriented 23AB generator, construct cross-grade VOA/defect composition or order-23-twined genus-two sewing, and test the C4 metaplectic multiplier. Keep Rule 60 as the group-algebra operator 1+sigma, not a Monster element.",
+      "closure": "A source-declared class-sensitive lift produces a nontrivial operator family and graded trace satisfying the preregistered modular identities without fitting address occupancy.",
+      "killTest": "The oriented identification fails, every class-sensitive record collapses to the same scalar trace, or its operator law violates the required modular identities.",
+      "dependencies": [
+        "OT-033"
+      ],
+      "targetIds": [
+        "FPT-009",
+        "FPT-019"
+      ],
+      "frontierAreaIds": [
+        "FA-16",
+        "FA-17",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-001",
+        "DET-028",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/moonshine-program-lattice/README.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/moonshine-program-lattice/README.md"
+    },
+    {
+      "id": "OT-046",
+      "label": "D4 quotient-singularity localized operator",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Can a physical Hamiltonian, Dirac or Fredholm operator over the D4 deformation have localized spectrum controlled by the quotient vanishing cycles?",
+      "nextAction": "Supply the datum isolated by AZ-108: one source-native operator family D(lambda) on a declared spatial or geometric domain, its boundary/asymptotic conditions and quotient pushforward; only then calculate a regulator-stable index or pole ledger.",
+      "closure": "The quotient controls a robust spectral change with a detector-facing observable and regulator-stable index or pole ledger.",
+      "killTest": "The vanishing-cycle quotient leaves the physical spectrum unconstrained or the effect depends on arbitrary boundary data.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-007",
+        "FPT-010",
+        "FPT-014"
+      ],
+      "frontierAreaIds": [
+        "FA-14",
+        "FA-17",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-023",
+        "DET-024",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_108_d4_shared_action_operator_boundary.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_108_d4_shared_action_operator_boundary.md"
+    },
+    {
+      "id": "OT-047",
+      "label": "Renormalized source quotient, operational rank and KMS response",
+      "status": "open",
+      "priority": "P1",
+      "question": "Does the exact five-coordinate incidence/B-L source quotient develop an operational rank-two spectral window, and how does that window extend to finite-temperature KMS response?",
+      "nextAction": "Use AZ-113's implementation contract to export independent signed top-current, bottom-current and c_WW controls in one nonredundant gauge-invariant basis; carry all three anomaly shifts and Ward checks before calculating the three-coordinate differential kernel and higher-order covariance. Keep the seven physical dimension-five coordinates distinct from ultraviolet origin labels.",
+      "closure": "A declared energy window has a scheme-audited stable low-rank singular subspace, bounded discarded directions, matched contacts and thresholds, and an explicit thermal tensor yielding no-refit response observables.",
+      "killTest": "Fired for exact algebraic two-current closure by AZ-068; the operational branch also dies if two or more broken singular directions remain resolvable or the leading broken direction rotates beyond the preregistered tolerance across the proposed window.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-004",
+        "FPT-008",
+        "FPT-011",
+        "FPT-017"
+      ],
+      "frontierAreaIds": [
+        "FA-04",
+        "FA-13",
+        "FA-17",
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-019",
+        "DET-020",
+        "DET-031",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_115_the_full_gauge_dictionary_turns_the_sixth_coordinate_into_a_declared_slice.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_115_the_full_gauge_dictionary_turns_the_sixth_coordinate_into_a_declared_slice.md"
+    },
+    {
+      "id": "OT-048",
+      "label": "Five-coordinate incidence observable likelihood",
+      "status": "open",
+      "priority": "P1",
+      "question": "Can bottom, electroweak and flavor-changing compasses make the family-universal source quotient and its direct-boson extension identifiable with signed interference information?",
+      "nextAction": "Choose one physical charged-production diphoton channel and freeze one gauge-complete EFT basis. Compute its complex continuum and resonant helicity amplitudes, calibrated response matrix and sideband/control covariance. Use AZ-074's 27 generator templates to validate the quadratic response on held-out corners, then fit the single observed data set. Fit the unrestricted theory only in seven basis-invariant coordinates.",
+      "closure": "The three-amplitude kernel predicts held-out corners and passes positivity; the reduced slice is tested by a signed odd-interference charged/neutral likelihood, or the unrestricted seven-coordinate EFT is fit with its exact null preserved; running, thresholds, widths and detector covariance are explicit.",
+      "killTest": "A basis representative is reported as observable, the (2,1,-1) null is ignored with c_BB free, unsigned rates replace signed identification, the continuum lacks matching quantum numbers, interference vanishes after physical sums, acceptance leakage is unprofiled, simulated source reversal is presented as a laboratory control, gauge completion removes an assumed direction, factorial closure fails, or the relation depends on an unprofiled decay assumption.",
+      "dependencies": [
+        "OT-047"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-011"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-17",
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-029",
+        "DET-031",
+        "DET-036"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_118_detector_folding_preserves_the_design_but_not_a_clean_odd_record.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_118_detector_folding_preserves_the_design_but_not_a_clean_odd_record.md"
+    },
+    {
+      "id": "OT-049",
+      "label": "Exceptional rank-one vacuum Hessian and gauge spectrum",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Does one selected exceptional rank-one vacuum produce a stable Hessian, viable gauge spectrum and the same colour-linear response geometry without activating excluded leptoquark directions?",
+      "nextAction": "Choose an action, compute the full scalar Hessian and gauge masses including coloured directions in the exceptional 10, then match the surviving five current coordinates.",
+      "closure": "One anomaly-consistent stable vacuum predicts the gauge and response pattern with fewer parameters than the independent low-energy construction.",
+      "killTest": "Stability requires arbitrary deformations, coloured instabilities or an unavoidable leptoquark branch incompatible with the declared spectrum.",
+      "dependencies": [
+        "OT-032",
+        "OT-047",
+        "OT-048"
+      ],
+      "targetIds": [
+        "FPT-011",
+        "FPT-013"
+      ],
+      "frontierAreaIds": [
+        "FA-17",
+        "FA-19",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-031",
+        "DET-035"
+      ],
+      "evidencePath": null,
+      "evidenceUrl": null
+    },
+    {
+      "id": "OT-050",
+      "label": "Lattice-subroutine gravitational action and observable",
+      "status": "gated",
+      "priority": "P2",
+      "question": "Can the exact Golay–Leech–Monster and genus-two seam subroutine enter one local, healthy gravitational construction with a discriminating observable?",
+      "nextAction": "Construct an order-23 twined genus-two sewing amplitude and locate or construct the fermionic Baby-Monster spin-sector family and anomaly line; then test whether their seam or defect data derive the off-diagonal H_2(R) response coordinate and a coherent detector record. In parallel require every gravity route to supply its missing typed action or continuum output.",
+      "closure": "At least one declared route derives a local covariant action or controlled continuum with conserved source, healthy gravitational spectrum, dimension/signature control and a no-refit observable tied to the lattice data.",
+      "killTest": "The modular state count, seam sign or pair-Gram carrier remains connected to gravity only by shared matrix shape, imported spacetime structure, freely chosen anomaly trivialization or a detector map fitted after the fact.",
+      "dependencies": [
+        "OT-025",
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-009",
+        "FPT-012",
+        "FPT-013",
+        "FPT-014",
+        "FPT-019"
+      ],
+      "frontierAreaIds": [
+        "FA-16",
+        "FA-17",
+        "FA-19",
+        "FA-20"
+      ],
+      "detectorIds": [
+        "DET-028",
+        "DET-031",
+        "DET-033",
+        "DET-034",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/moonshine-program-lattice/README.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/moonshine-program-lattice/README.md"
+    },
+    {
+      "id": "OT-051",
+      "label": "Boundary-domain selector spectrum",
+      "status": "gated",
+      "priority": "P1",
+      "question": "Can one fixed bulk carrier support a preregistered family of boundary or domain selectors whose distinct spectra remain positive and regulator-stable without retuning the bulk law?",
+      "nextAction": "When the promised numerical energies, matrix elements, fit scripts and figure/table code are publicly released, reproduce one fuzzy-sphere monodromy family with untwisted, pi-twisted and symmetry-breaking controls; freeze the bulk coupling, vary only boundary flux, refine sphere size, and predict held-out fractional-spin levels and OPE data. Until release, retain only the exact half-grid rule and published extrapolated summaries as audit fixtures. In parallel keep the Narain negative coefficient as a positivity control and the Hitchin real-slice choice as a domain-dependence control.",
+      "closure": "A frozen carrier and declared selector map predict selector-specific held-out spectral records across regulator refinement, with positivity, trivial-selector and symmetry-breaking controls passed and no boundary-specific bulk refit.",
+      "killTest": "The spectral distinction disappears under refinement, requires boundary-specific retuning of the bulk law, violates positivity, or is fully explained by an uncontrolled regulator or detector fold.",
+      "dependencies": [],
+      "targetIds": [
+        "FPT-007",
+        "FPT-010",
+        "FPT-014"
+      ],
+      "frontierAreaIds": [
+        "FA-11",
+        "FA-14",
+        "FA-15",
+        "FA-17",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-023",
+        "DET-024",
+        "DET-026",
+        "DET-029",
+        "DET-035"
+      ],
+      "evidencePath": "corpus/programmes/frontier/wave-7/frontier_wave7_107_boundary_domain_admissibility_bridge.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/frontier/wave-7/frontier_wave7_107_boundary_domain_admissibility_bridge.md"
+    },
+    {
+      "id": "OT-052",
+      "label": "Observer-dependent detector and horizon closure",
+      "status": "active",
+      "priority": "P1",
+      "question": "Can one state-to-worldline-to-horizon-to-detector calculation preserve the distinction between local thermal response, global state, geometric boundary and outgoing channel?",
+      "nextAction": "Execute AZ-144 on the public GW250114 strain and four waveform-family posterior products; use a finite-switching Unruh factorial as the detector regression; build the Hawking state-through-greybody likelihood only after those controls pass.",
+      "closure": "One frozen model predicts detailed balance, boundary-specific scattering and a detector record across held-out trajectory, spin and frequency controls without identifying local and global closure.",
+      "killTest": "A fitted temperature substitutes for the state and trajectory; horizon, ergosurface and superradiant threshold are conflated; or an analogue result is promoted to gravitational Hawking radiation.",
+      "dependencies": [
+        "OT-027"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-010",
+        "FPT-012",
+        "FPT-016"
+      ],
+      "frontierAreaIds": [
+        "FA-03",
+        "FA-08",
+        "FA-11",
+        "FA-18",
+        "FA-19"
+      ],
+      "detectorIds": [
+        "DET-022",
+        "DET-023",
+        "DET-029",
+        "DET-035",
+        "DET-037"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_144_kerr_multirecord_public_data_consistency_programme.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_144_kerr_multirecord_public_data_consistency_programme.md"
+    },
+    {
+      "id": "OT-053",
+      "label": "Nuclear open-system seam and channel calibration",
+      "status": "active",
+      "priority": "P1",
+      "question": "Can parent structure, channel coupling and detector record be varied independently in one nuclear system and predicted with one held-out open-system model?",
+      "nextAction": "Audit the two public 2026 clock releases, then execute AZ-143's shared-nucleus/host-specific-channel likelihood wherever point-level metadata and covariance permit. Next choose a compound-resonance isotope for entrance, prompt-coincidence and delayed-tag stress testing.",
+      "closure": "A shared parent-plus-channel model predicts held-out frequency, lifetime, branching, angular or delay records across at least two host, entrance or isotope controls.",
+      "killTest": "Every structural change is absorbed into refitted host shifts, total width, missed feeding or detector efficiency; or the proposed grammar adds no prediction beyond modern nuclear and material theory.",
+      "dependencies": [
+        "OT-036"
+      ],
+      "targetIds": [
+        "FPT-002",
+        "FPT-007",
+        "FPT-010",
+        "FPT-018"
+      ],
+      "frontierAreaIds": [
+        "FA-10",
+        "FA-11",
+        "FA-17",
+        "FA-18"
+      ],
+      "detectorIds": [
+        "DET-011",
+        "DET-022",
+        "DET-023",
+        "DET-029",
+        "DET-037"
+      ],
+      "evidencePath": "corpus/programmes/admissibility/admissibility_143_th229_shared_parent_host_channel_factorization_programme.md",
+      "evidenceUrl": "https://github.com/aaron-alderman/spin23-relational-geometry/blob/c60204964771aa655042618d3ffb17edb05d616b/corpus/programmes/admissibility/admissibility_143_th229_shared_parent_host_channel_factorization_programme.md"
+    }
+  ],
+  "trophies": [
+    {
+      "id": "E3-F04",
+      "title": "The central sign is not the missing orientation datum",
+      "finding": "The canonical projective lift returns the carrier frame by -I while preserving determinant orientation. Wilson-loop sign is therefore not automatically a Pfaffian-sheet flip.",
+      "reopen": "Supply an independently odd datum such as a reflection, oriented area or calibrated boundary orientation.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F04"
+    },
+    {
+      "id": "E3-F06",
+      "title": "One S1 mediator cannot realize the desired pure Furey pulse",
+      "finding": "The common mediator that produces the two crossed operators also produces a third Wilson edge; one copy is rank-obstructed and common-orientation positive copies do not remove it.",
+      "reopen": "Derive a split-copy involution, source-incidence rule, boundary realization or physical role for the closed triangle.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F06"
+    },
+    {
+      "id": "E3-F07",
+      "title": "Complete unified triplets are not automatically proton-safe",
+      "finding": "The desired leptoquark arms arrive with four-quark and proton-decay channels. B-L and matter parity do not isolate the safe subset.",
+      "reopen": "Provide a source-selecting Pati-Salam, finite-geometry or multi-mediator completion that survives anomaly and mixing tests.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F07"
+    },
+    {
+      "id": "E3-F09",
+      "title": "The simplest continuous and binary protections fail",
+      "finding": "Family-universal anomaly-free U(1) charges cannot distinguish the safe mask; the universal internal Z2 is weak-anomalous for odd family count.",
+      "reopen": "Use a larger cyclic, flavor-dependent, non-Abelian, inflow or finite-geometry mechanism with a complete anomaly ledger.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F09"
+    },
+    {
+      "id": "E3-F15",
+      "title": "Healthy bosonic poles do not settle the chiral fold",
+      "finding": "A stable bosonic completion can pass pole and positivity tests while leaving the fermionic chirality and anomaly problem untouched.",
+      "reopen": "Construct the chiral parent, its anomaly completion and a shared microscopic action rather than importing a bosonic response alone.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F15"
+    },
+    {
+      "id": "E3-F17",
+      "title": "The minimal six-dimensional parent is anomalous",
+      "finding": "The canonical completion carries the desired index-three structure, but its minimal local 6D parent fails anomaly cancellation.",
+      "reopen": "Add a justified spectator or inflow sector without restoring unwanted massless mirrors or changing the claimed index mechanism.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F17"
+    },
+    {
+      "id": "E3-F20",
+      "title": "The softened QWZ curve is not the stated Lindbladian response",
+      "finding": "The published quadrature can be reproduced phenomenologically, but the exact stationary response of the declared sigma-z Lindbladian vanishes.",
+      "reopen": "Derive a corrected open-system generator and compute its exact response, including the noncommuting limits and bath record.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F20"
+    },
+    {
+      "id": "E3-F23",
+      "title": "The local gravity route lacks a closed quantum parent",
+      "finding": "One critical torsion sector can be healthy, but the known local construction does not supply a complete quantum parent, vacuum and spectrum.",
+      "reopen": "Provide a new parent theory with a controlled vacuum, spectrum, anomaly structure and low-energy matching.",
+      "url": "https://aaron-alderman.github.io/spin23-relational-geometry/edition-3/08-result-ledger.html#E3-F23"
+    }
+  ],
+  "bounties": [
+    "Extract explicit parity-resolved constants for a weakly coupled projected E8 chain—or prove the measured coupling lies outside the theorem's domain.",
+    "Build a certified compressed-chain calculation beyond direct-product enumeration and compare it with the exact width-six plateau.",
+    "Lift the projected local-root chain into the full multi-cell charge Hilbert space with controlled error.",
+    "Derive a source-native rank-24 boundary candidate from three E8 units and calculate its weight-one spectrum.",
+    "Design a blind E8^3 / Niemeier / Leech detector challenge using identical synthetic data and held-out observables.",
+    "Give a minimal physical implementation of inversion gauging in which the twisted sector is forced rather than inserted.",
+    "Identify one Monster-marked defect or sewing observable with a realistic readout and an explicit smaller-algebra null model.",
+    "Improve this expedition surface: make filled, failed, conditional and unfilled nodes easier to reproduce and challenge."
+  ]
+}

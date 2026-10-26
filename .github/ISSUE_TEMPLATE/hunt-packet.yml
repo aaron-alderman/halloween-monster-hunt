@@ -1,0 +1,64 @@
+name: Return a hunt packet
+description: Report a proof, reproduction, construction, clean failure or newly sharpened gate.
+title: "[PACKET] OT-___ — "
+labels: ["hunt packet", "needs audit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for returning from the crypt. Keep the claim narrow, the evidence reproducible and the boundary explicit.
+  - type: input
+    id: topic
+    attributes:
+      label: Topic ID
+      placeholder: OT-006
+    validations:
+      required: true
+  - type: dropdown
+    id: disposition
+    attributes:
+      label: Proposed disposition
+      options:
+        - closed-positive
+        - closed-negative
+        - advanced
+        - split
+        - unchanged
+        - blocked
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Exact claim
+      description: One falsifiable sentence, followed by one sentence stating what it does not establish.
+    validations:
+      required: true
+  - type: textarea
+    id: certificate
+    attributes:
+      label: Certificate and reproduction
+      description: Link code, proof, data, residuals, convergence checks and the pinned source revision.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Rivals, negative controls and kill test
+      description: State what could explain the result without the proposed bridge and whether the declared kill test fired.
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Scope and reopening condition
+      description: Preserve assumptions and name the minimum datum that would reopen a negative result.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: Next interface
+      description: What exact datum can the next hunter consume?
+    validations:
+      required: true
