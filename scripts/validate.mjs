@@ -19,7 +19,7 @@ for (const topic of data.topics) {
 }
 
 const html = readFileSync(resolve(root, "index.html"), "utf8");
-for (const marker of ["Halloween Monster Hunt", "class=\"hero-route\"", "Rank 24", "held-out prediction", "id=\"map\"", "id=\"trophies\"", "id=\"agents\"", "FOR_AGENTS.md", "data/hunt-map.json"]) {
+for (const marker of ["Halloween Monster Hunt", "class=\"moon-crystal\"", "class=\"monster-seal\"", "class=\"hero-route\"", "Rank 24", "held-out prediction", "id=\"map\"", "id=\"trophies\"", "id=\"agents\"", "FOR_AGENTS.md", "data/hunt-map.json"]) {
   if (!html.includes(marker)) throw new Error(`index missing ${marker}`);
 }
 for (const marker of [
