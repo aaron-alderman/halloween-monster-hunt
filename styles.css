@@ -257,7 +257,7 @@ footer strong, footer a { color: var(--ink); }
   section, footer { padding-left: 1rem; padding-right: 1rem; }
   .ruled-grid, .section-heading, .agent-section, footer { grid-template-columns: 1fr; }
   .moon-wrap { width: 18rem; top: 10%; right: -8rem; }
-  .monster-seal { right: 4%; bottom: -9%; }
+  .monster-seal { display: none; }
   .hero-copy { font-size: 1rem; }
   .countdown { align-items: start; flex-direction: column; gap: .3rem; }
   .controls { align-items: stretch; flex-direction: column; }
@@ -265,7 +265,7 @@ footer strong, footer a { color: var(--ink); }
   .topic-grid, .trophy-grid { grid-template-columns: 1fr; }
   .scoreboard { grid-template-columns: repeat(2, 1fr); }
   .rules-grid { grid-template-columns: 1fr; }
-  h1 { font-size: clamp(4rem, 23vw, 6rem); }
+  h1 { font-size: clamp(3.6rem, 18vw, 5.5rem); }
   .hero-route { grid-template-columns: 1fr; gap: .8rem; margin-top: 2.5rem; padding-left: .35rem; }
   .hero-route::before { left: 1.48rem; right: auto; top: 1rem; bottom: 1rem; width: 2px; height: auto; transform: none; background: linear-gradient(var(--acid), var(--spectral) 45%, var(--violet) 72%, var(--pumpkin)); }
   .hero-route li:nth-child(n) { transform: none; }
