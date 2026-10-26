@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
-const required = ["index.html", "styles.css", "app.js", "FOR_AGENTS.md", "CONTRIBUTING.md", "data/hunt-map.json", "assets/halloween-monster-hunt-social.jpg", ".github/workflows/pages.yml"];
+const required = ["index.html", "styles.css", "app.js", "FOR_AGENTS.md", "CONTRIBUTING.md", "data/hunt-map.json", "assets/halloween-monster-hunt-social.jpg", "assets/hunt-hero-blood-moon-desktop-v2.png", "assets/hunt-hero-blood-moon-mobile-v2.png", ".github/workflows/pages.yml"];
 for (const path of required) {
   if (!existsSync(resolve(root, path))) throw new Error(`missing ${path}`);
 }
@@ -19,7 +19,7 @@ for (const topic of data.topics) {
 }
 
 const html = readFileSync(resolve(root, "index.html"), "utf8");
-for (const marker of ["Halloween Monster Hunt", "class=\"moon-crystal\"", "class=\"monster-seal\"", "class=\"hero-route\"", "Rank 24", "held-out prediction", "id=\"map\"", "id=\"trophies\"", "id=\"agents\"", "FOR_AGENTS.md", "data/hunt-map.json"]) {
+for (const marker of ["Halloween Monster Hunt", "class=\"hero-scene\"", "hunt-hero-blood-moon-mobile-v2.png", "class=\"monster-seal\"", "class=\"hero-route\"", "Rank 24", "held-out prediction", "id=\"map\"", "id=\"trophies\"", "id=\"agents\"", "FOR_AGENTS.md", "data/hunt-map.json"]) {
   if (!html.includes(marker)) throw new Error(`index missing ${marker}`);
 }
 for (const marker of [
