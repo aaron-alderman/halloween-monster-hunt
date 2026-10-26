@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
-const required = ["index.html", "styles.css", "app.js", "FOR_AGENTS.md", "CONTRIBUTING.md", "data/hunt-map.json", "assets/halloween-monster-hunt-social.jpg", "assets/hunt-hero-blood-moon-desktop-v2.png", "assets/hunt-hero-blood-moon-mobile-v2.png", ".github/workflows/pages.yml"];
+const required = ["index.html", "styles.css", "app.js", "FOR_AGENTS.md", "CONTRIBUTING.md", "data/hunt-map.json", "assets/favicon.svg", "assets/favicon-32.png", "assets/apple-touch-icon.png", "assets/halloween-monster-hunt-social.jpg", "assets/hunt-hero-blood-moon-desktop-v2.png", "assets/hunt-hero-blood-moon-mobile-v2.png", ".github/workflows/pages.yml"];
 for (const path of required) {
   if (!existsSync(resolve(root, path))) throw new Error(`missing ${path}`);
 }
@@ -28,6 +28,9 @@ for (const marker of [
   '<meta property="og:image:width" content="1200">',
   '<meta property="og:image:height" content="630">',
   '<link rel="canonical" href="https://aaron-alderman.github.io/halloween-monster-hunt/">',
+  '<meta name="google-site-verification" content="9WwsoUYrUkaJiln-l2ByjjyKOs7jVuMGIJp3rrdjFPA">',
+  '<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">',
+  '<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">',
 ]) {
   if (!html.includes(marker)) throw new Error(`social preview metadata missing ${marker}`);
 }
