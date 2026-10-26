@@ -28,6 +28,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html styles.css app.js FOR_AGENTS.md CONTRIBUTING.md _site/
+          cp -R assets _site/assets
           cp -R data _site/data
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5

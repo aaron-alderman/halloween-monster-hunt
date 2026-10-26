@@ -32,6 +32,9 @@ for (const marker of [
   if (!html.includes(marker)) throw new Error(`social preview metadata missing ${marker}`);
 }
 
+const workflow = readFileSync(resolve(root, ".github/workflows/pages.yml"), "utf8");
+if (!workflow.includes("cp -R assets _site/assets")) throw new Error("Pages workflow does not publish social preview assets");
+
 const agent = readFileSync(resolve(root, "FOR_AGENTS.md"), "utf8");
 for (const marker of ["Non-negotiable authority boundary", "Required return packet", "Complete trail index", data.source.revision]) {
   if (!agent.includes(marker)) throw new Error(`agent field file missing ${marker}`);
